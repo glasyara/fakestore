@@ -34,7 +34,7 @@ const Products = () => {
 
   return (
     <Container>
-      <Typography variant="h4" sx={{ mb: 2 }}>Products</Typography>
+      <Typography variant="h4" sx={{ mb: 2 }}>Produtos</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
