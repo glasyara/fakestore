@@ -12,9 +12,11 @@ Aperte o botao de logout quando acabar para sair e deletar o token.
 
 ### Recursos Usados
 
-Material UI e React, Vite para a interface
-React Router para a renderização das diferentes paginás
-Axios para os HTTP requests
+Material UI e React, Vite para a interface.
+
+React Router para a renderização das diferentes paginás.
+
+Axios para os HTTP requests.
 
 
 
