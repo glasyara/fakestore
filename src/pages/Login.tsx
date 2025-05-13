@@ -10,7 +10,7 @@ const Login = () => {
   const { login } = useContext(AuthContext)!;
   const navigate = useNavigate();
 
-  const handleSubmit = async () => {
+  const fazerLogin = async () => {
     try {
       const response = await axios.post('https://fakestoreapi.com/auth/login', {
         username,
@@ -28,7 +28,7 @@ const Login = () => {
       <Typography variant="h4" color='black'>Login</Typography>
       <TextField label="Username" value={username} onChange={(e) => setUsername(e.target.value)} fullWidth margin="normal" />
       <TextField label="Password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} fullWidth margin="normal" />
-      <Button onClick={handleSubmit} variant="contained" fullWidth>Login</Button>
+      <Button onClick={fazerLogin} variant="contained" fullWidth>Login</Button>
     </Container>
   );
 };
