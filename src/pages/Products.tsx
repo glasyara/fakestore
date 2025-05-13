@@ -42,6 +42,7 @@ const Products = () => {
               <TableCell></TableCell>
               <TableCell>ID Produto</TableCell>
               <TableCell>Nome</TableCell>
+              <TableCell>Descrição</TableCell>
               <TableCell>Preço</TableCell>
             </TableRow>
           </TableHead>
@@ -58,6 +59,7 @@ const Products = () => {
                 </TableCell>
                 <TableCell>{product.id}</TableCell>
                 <TableCell>{product.title}</TableCell>
+                <TableCell>{product.description}</TableCell>
                 <TableCell>${product.price}</TableCell>
               </TableRow>
             ))}
