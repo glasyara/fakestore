@@ -39,10 +39,10 @@ const Products = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Image</TableCell>
-              <TableCell>Product ID</TableCell>
-              <TableCell>Title</TableCell>
-              <TableCell>Price</TableCell>
+              <TableCell></TableCell>
+              <TableCell>ID Produto</TableCell>
+              <TableCell>Nome</TableCell>
+              <TableCell>Preço</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -64,8 +64,6 @@ const Products = () => {
           </TableBody>
         </Table>
       </TableContainer>
-
-      {/* Logout Button */}
       <Box sx={{ mt: 4, textAlign: 'center' }}>
         <Button variant="contained" color="error" onClick={handleLogout}>
           Logout
